@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jishin Alert - Earthquake Safety Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="Jishin Alert Logo" class="logo-img">
+                <span class="logo-divider">×</span>
+                <img src="bsit-logo.png" alt="BSIT Logo" class="bsit-logo-img">
+                <span class="logo-text">JISHIN ALERT</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#trailer">Trailer</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="Website-BG.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="warning-badge">
+                <span class="pulse-dot"></span>
+                EMERGENCY PREPAREDNESS TRAINING
+            </div>
+            <h1 class="hero-title">
+                <span class="glitch" data-text="JISHIN ALERT">JISHIN ALERT</span>
+            </h1>
+            <p class="hero-subtitle">Learn. Survive. Save Lives.</p>
+            <p class="hero-description">
+                Experience earthquake scenarios and lear about some life-saving earthquake preparedness safety protocols through immersive gameplay
+            </p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn btn-primary">
+                    <span>Download Now</span>
+                    <span class="btn-icon">📱</span>
+                </a>
+                <a href="#trailer" class="btn btn-secondary">
+                    <span>Watch Trailer</span>
+                    <span class="btn-icon">▶️</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Difficulty Levels</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Educational</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">QUIZ</div>
+                    <div class="stat-label">Assessment Module</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">DROP</div>
+                    <div class="stat-label">Cover & Hold On</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">ABOUT THE GAME</span>
+                <h2 class="section-title">Master Earthquake Safety Through Experience</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="feature-box featured">
+                        <div class="feature-icon">🎮</div>
+                        <h3>Earthquake Mobile Game Simulation</h3>
+                        <p>Experience an earthquake situation where NPCs evacuate and debris falls naturally. This helps you learn what to do during a real earthquake.</p>
+                    </div>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <div class="feature-icon">📚</div>
+                        <h3>Educational Focus</h3>
+                        <p>Learn proper earthquake safety protocols including "DROP, COVER, and HOLD ON" through practical scenarios, not memorization.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">📊</div>
+                        <h3>Three Difficulty Levels</h3>
+                        <p>Progress from Easy to Hard difficulty with comprehensive quiz systems that test your knowledge and preparedness.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Track Your Progress</h3>
+                        <p>Monitor your learning journey with Firebase-powered analytics that save your quiz results and gameplay achievements.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">🏗️</div>
+                        <h3>CSCQC SCHOOL Environment</h3>
+                        <p>Navigate through 3D environments with NPCs that respond to earthquake phases.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">💪</div>
+                        <h3>No Gimmicks</h3>
+                        <p>Pure educational value without coins, gems, or distracting rewards. Focus on what matters: Earthquake Preparedness that can learn and use in earthquake situiation.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">📱</div>
+                        <h3>Mobile Optimized</h3>
+                        <p>Built specifically for Android devices with intuitive controls and smooth performance on mobile hardware.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="safety-protocol">
+                <div class="protocol-header">
+                    <h3>🚨 What You'll Learn</h3>
+                </div>
+                <div class="protocol-steps">
+                    <div class="protocol-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>DROP</h4>
+                            <p>Get down on your hands and knees immediately</p>
+                        </div>
+                    </div>
+                    <div class="protocol-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>COVER</h4>
+                            <p>Protect your head and neck under sturdy furniture</p>
+                        </div>
+                    </div>
+                    <div class="protocol-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>HOLD ON</h4>
+                            <p>Stay in place until shaking stops completely</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section id="trailer" class="trailer">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">GAME TRAILER</span>
+                <h2 class="section-title">See Jishin Alert In Action</h2>
+                <p class="section-description">Watch how realistic earthquake simulation meets educational gameplay</p>
+            </div>
+            
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <!-- Replace the src with your actual YouTube video link -->
+                    <!-- To get the embed link: Go to your YouTube video > Share > Embed > Copy the src URL -->
+                    <iframe 
+                        src="https://www.youtube.com/embed/zqHj9BbbKR4?si=On3t5c4AeZFiWTgm" 
+                        title="Jishin Alert Game Trailer" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-note">
+                    <strong>Note:</strong> Jishin Alert Project Game
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-card">
+                <div class="download-content">
+                    <div class="section-header">
+                        <span class="section-badge">GET THE GAME</span>
+                        <h2 class="section-title">Download Jishin Alert</h2>
+                        <p class="section-description">Available now for Android devices. Start your earthquake preparedness training today.</p>
+                    </div>
+
+                    <div class="download-info">
+                        <div class="info-item">
+                            <span class="info-label">Platform:</span>
+                            <span class="info-value">Android 5.0+</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Size:</span>
+                            <span class="info-value">~600 MB</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Version:</span>
+                            <span class="info-value">1.0.0</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Price:</span>
+                            <span class="info-value">FREE</span>
+                        </div>
+                    </div>
+
+                    <div class="download-buttons">
+                        <!-- Replace # with your actual APK file link -->
+                        <a href="https://github.com/JishinAlert/jishin-alert-game/releases/download/v1.0.0/Jishin.Alert.apk" class="btn btn-download" download>
+                            <span class="download-icon">📥</span>
+                            <div class="download-text">
+                                <span class="download-title">Download APK</span>
+                                <span class="download-subtitle">Direct Download</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="download-warning">
+                        <div class="warning-icon"></div>
+                        <div class="warning-text">
+                            <strong>Installation Note:</strong> You may need to enable "Install from Unknown Sources" in your Android settings to install this APK file.
+                        </div>
+                    </div>
+
+                    <div class="system-requirements">
+                        <h4>System Requirements</h4>
+                        <ul>
+                            <li>Android 5.0 (Lollipop) or higher</li>
+                            <li>At least 1GB RAM recommended</li>
+                            <li>200MB free storage space</li>
+                            <li>Internet connection for Firebase features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>
+                        <img src="logo.png" alt="Jishin Alert Logo" class="footer-logo">
+                        Jishin Alert
+                    </h3>
+                    <p>An educational mobile game focused on earthquake safety and preparedness.</p>
+                    <p class="footer-tagline">Learn by doing. Prepare to survive.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#trailer">Trailer</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Project Info</h4>
+                    <p><strong>College:</strong> CSCQC</p>
+                    <p><strong>Program:</strong> Capstone Project</p>
+                    <p><strong>Deadline:</strong> December 2025</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>For inquiries about this project:</p>
+                    <p>🏫 College of St. Catherine Quezon City</p>
+                    <img src="cscqc-logo.png" alt="CSCQC Logo" class="footer-cscqc-logo">
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jishin Alert. Capstone Project - CSCQC. All rights reserved.</p>
+                <p class="footer-disclaimer">This game is developed for educational purposes as part of a college capstone project.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Back to top">
+        <span class="scroll-arrow">↑</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
